@@ -14,17 +14,34 @@ For example:
 Patient 1 has 4 images with label = 1:
 
 images[0] is a dictionary with size (4):
+
 np.shape(images[0][0]) = (128 × 128 × 1)
+
 np.shape(images[0][1]) = (128 × 128 × 1)
+
 np.shape(images[0][2]) = (128 × 128 × 1)
+
 np.shape(images[0][3]) = (128 × 128 × 1)
+
+
 labels_train[0] = 1
+
+
+
+
+
 Patient 2 has 2 images with label = 0:
 
+
 images[1] is a dictionary with size (2):
+
 np.shape(images[1][0]) = (128 × 128 × 1)
+
 np.shape(images[1][1]) = (128 × 128 × 1)
+
 labels_train[1] = 0
+
+
 Ensure that all images are resized to a square dimension of (128 × 128 × 1). To extract features using the proposed Conventional Autoencoder (CAE), run the file "feature_extraction.py." This code will save the extracted features for further processing. To complete the classification using the proposed method, execute the code "mlp_classification."
 
 
