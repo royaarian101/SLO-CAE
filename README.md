@@ -11,7 +11,7 @@ To create a dictionary for your dataset, each key should represent an individual
 
 For example:
 
-Patient 1 has 4 images with label = 1:
+****Patient 1 has 4 images with label = 1:
 
 images[0] is a dictionary with size (4):
 
@@ -35,7 +35,7 @@ labels_train[0] = 1
 
 
 
-Patient 2 has 2 images with label = 0:
+****Patient 2 has 2 images with label = 0:
 
 
 images[1] is a dictionary with size (2):
