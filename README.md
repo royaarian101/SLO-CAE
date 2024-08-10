@@ -29,6 +29,9 @@ Ensure that all images are resized to a square dimension of (128 × 128 × 1). T
 
 
 
+
+
+
 **Please ensure to include the following citation when utilizing any part of the code:**
 
 **Aghababaei A, Arian R, Soltanipour A, Ashtari F, Rabbani H, Kafieh R. Discrimination of Multiple Sclerosis using Scanning Laser Ophthalmoscopy Images with Autoencoder-Based Feature Extraction. Multiple Sclerosis and Related Disorders. 2024 Aug 1;88:105743–3.**
