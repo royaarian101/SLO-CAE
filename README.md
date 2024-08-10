@@ -30,6 +30,11 @@ labels_train[0] = 1
 
 
 
+
+
+
+
+
 Patient 2 has 2 images with label = 0:
 
 
