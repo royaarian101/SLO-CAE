@@ -1,5 +1,5 @@
 # SLO-CAE
-"First-Time Utilization of SLO Images for the Classification of Individuals with Multiple Sclerosis and Healthy Individuals"
+**First-Time Utilization of SLO Images for the Classification of Individuals with Multiple Sclerosis and Healthy Individuals**
 
 
 For the first time, we employed SLO images to distinguish between eyes affected by Multiple Sclerosis (MS) and healthy controls (HC), achieving promising results through the combined use of a custom-designed Convolutional Autoencoder (CAE) and a Multi-Layer Perceptron (MLP). The proposed CAE's effectiveness in detecting more informative representations can be partly attributed to the connections between two blocks of the encoder and decoder. This design facilitates information propagation between the encoder and decoder components, helping to prevent the loss of critical information during the up-sampling process, as a higher-resolution feature map is constructed and subsequently processed by the decoder's convolutional layers.
@@ -29,6 +29,6 @@ Ensure that all images are resized to a square dimension of (128 × 128 × 1). T
 
 
 
-**Please ensure to include the following citation when utilizing any part of the code:
+**Please ensure to include the following citation when utilizing any part of the code:**
 
-Aghababaei A, Arian R, Soltanipour A, Ashtari F, Rabbani H, Kafieh R. Discrimination of Multiple Sclerosis using Scanning Laser Ophthalmoscopy Images with Autoencoder-Based Feature Extraction. Multiple Sclerosis and Related Disorders. 2024 Aug 1;88:105743–3.**
+**Aghababaei A, Arian R, Soltanipour A, Ashtari F, Rabbani H, Kafieh R. Discrimination of Multiple Sclerosis using Scanning Laser Ophthalmoscopy Images with Autoencoder-Based Feature Extraction. Multiple Sclerosis and Related Disorders. 2024 Aug 1;88:105743–3.**
